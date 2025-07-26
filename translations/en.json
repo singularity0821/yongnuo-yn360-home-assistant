@@ -1,0 +1,20 @@
+{
+  "title": "YONGNUO YN360 LED video light",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Select your YN360 LED video light",
+        "description": "Choose from available devices.",
+        "data": {
+          "address": "Devices"
+        }
+      }
+    },
+    "error": {
+      "no_devices_found": "No compatible YN360 LED video light devices found."
+    },
+    "abort": {
+      "already_configured": "This light is already configured."
+    }
+  }
+}
