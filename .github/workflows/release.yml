@@ -13,9 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Validate HACS Integration
-        uses: hacs/action@main
-
+      - name: HACS validation
+        uses: "hacs/action@main"
+        with:
+          category: "integration"
+          
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
